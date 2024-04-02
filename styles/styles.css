@@ -1,0 +1,70 @@
+body{
+    margin: 0 4rem;
+    box-sizing: border-box;
+}
+.Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 0 0 0;
+    margin: 0;
+}
+.Header-logo{
+    width: 3rem;
+    padding: 0;
+}
+.Header-list{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.6rem;
+    font-weight: bold;
+    word-spacing: 0;
+    margin: 1rem;
+    padding: 0;
+}
+.Header-listElement{
+    padding: 0 0.5rem;
+}
+.Header-listElement:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.SectionDesigns-text{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 3rem 0;
+}
+.SectionDesigns-work{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+@media screen and (max-width:768px) {
+    .SectionDesigns-work{
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+    }
+}
+
+.SectionDesigns-cardImage{
+    width: 100%;
+}
+.Footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.2rem 0 2.3rem 0;
+}
+.Footer-arrow{
+    font-size: 0.6rem;
+    padding: 0 0.1rem 0 0;
+}
+.Footer-text{
+    font-size: smaller;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
